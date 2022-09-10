@@ -9,8 +9,8 @@ import painting6 from "../assets/images/painting6.jpg";
 
 const Home = () => {
   return (
-    <div className="min-h-[100vh]">
-      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-2 md:gap-5 mt-4">
+    <div className="min-h-[100vh] mt-5">
+      <div className="product-grid">
         <ProductCart name="Abc painting" price={200} image={painting1} />
         <ProductCart name="Abc painting" price={200} image={painting2} />
         <ProductCart name="Abc painting" price={200} image={painting3} />

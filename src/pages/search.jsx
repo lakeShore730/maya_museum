@@ -7,15 +7,14 @@ import painting4 from "../assets/images/painting4.jpg";
 import painting5 from "../assets/images/painting5.jpg";
 import painting6 from "../assets/images/painting6.jpg";
 
-const search = () => {
+const Search = () => {
   return (
-    <div className="min-h-[calc(100vh-300px)]">
-      <p className="text-xl mt-16 text-center text-primary">Search Results</p>
-      <form className="mt-8">
+    <div className="min-h-[calc(100vh-300px)] mt-7">
+      <form>
         <SearchFiled />
       </form>
 
-      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-2 md:gap-5 mt-8">
+      <div className="product-grid mt-7">
         <ProductCart name="Abc painting" price={200} image={painting1} />
         <ProductCart name="Abc painting" price={200} image={painting2} />
         <ProductCart name="Abc painting" price={200} image={painting3} />
@@ -51,4 +50,4 @@ const search = () => {
   );
 };
 
-export default search;
+export default Search;

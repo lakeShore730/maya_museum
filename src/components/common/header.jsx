@@ -18,9 +18,9 @@ const Header = (props) => {
           />
         </Link>
         <div>
-          <p className="text-emerald-900 font-medium text-3xl">MAYA</p>
-          <p className="text-emerald-900 font-medium text-3xl mt-2">MUSEUM</p>
-          <p className="text-emerald-900 font-medium text-3xl mt-2">
+          <p className="text-emerald-800 font-medium text-3xl">MAYA</p>
+          <p className="text-emerald-800 font-medium text-3xl mt-2">MUSEUM</p>
+          <p className="text-emerald-800 font-medium text-3xl mt-2">
             COLLECTION
           </p>
         </div>
@@ -29,15 +29,15 @@ const Header = (props) => {
         <div className="flex gap-5 justify-end">
           <User
             size={25}
-            className="text-emerald-700 cursor-pointer hover:text-emerald-900"
+            className="text-emerald-700 cursor-pointer hover:text-emerald-800"
           />
           <ShoppingBag
             size={25}
-            className="text-emerald-700 cursor-pointer hover:text-emerald-900"
+            className="text-emerald-700 cursor-pointer hover:text-emerald-800"
           />
           <Sun
             size={25}
-            className="text-emerald-700 cursor-pointer hover:text-emerald-900"
+            className="text-emerald-700 cursor-pointer hover:text-emerald-800"
           />
         </div>
         <div className="mt-20">

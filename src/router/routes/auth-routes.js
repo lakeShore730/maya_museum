@@ -1,6 +1,4 @@
-import { lazy } from "react";
-
-const Login = lazy(() => import("../../pages/auth/login"));
+import Login from "../../pages/auth/login";
 
 const authRoutes = [
   {

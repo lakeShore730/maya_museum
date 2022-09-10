@@ -19,11 +19,11 @@ const ProductCart = (props) => {
       <div className="flex justify-between mt-3">
         <div>
           <p className="text-gray-700">{name}</p>
-          <p className="text-primary text-sm mt-2">$ {price.toFixed(2)}</p>
+          <p className="text-emerald-500 text-sm mt-1">$ {price.toFixed(2)}</p>
         </div>
         <Plus
           size={20}
-          className="text-primary cursor-pointer bg-gray-200 rounded-sm p-[1px] hover:bg-gray-300"
+          className="text-emerald-600 cursor-pointer bg-gray-200 rounded-sm p-[1px] hover:bg-gray-300"
         />
       </div>
     </div>

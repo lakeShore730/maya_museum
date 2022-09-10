@@ -16,10 +16,10 @@ const Navigation = (props) => {
           <Link
             key={item.id}
             to={item.path}
-            className={cn("text-md hover:text-emerald-900", {
-              "border-b-2 border-emerald-700 text-emerald-900":
+            className={cn("text-md tracking-wide hover:text-emerald-600", {
+              "border-b-2 border-emerald-600 text-emerald-600":
                 pathname === item.path,
-              "text-gray-800": pathname !== item.path,
+              "text-gray-700": pathname !== item.path,
             })}
           >
             {item.name}

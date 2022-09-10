@@ -1,15 +1,13 @@
-import { lazy } from "react";
-
-const Home = lazy(() => import("../../pages/index"));
-const ProductDetails = lazy(() => import("../../pages/product-details"));
-const ContactUs = lazy(() => import("../../pages/contact-us"));
-const Search = lazy(() => import("../../pages/search"));
-const OriginalPaintings = lazy(() => import("../../pages/original-paintings"));
-const Nft = lazy(() => import("../../pages/nft"));
-const Statue = lazy(() => import("../../pages/statue"));
-const Sculpture = lazy(() => import("../../pages/sculpture"));
-const About = lazy(() => import("../../pages/about"));
-const PageNotFound = lazy(() => import("../../pages/404"));
+import Home from "../../pages/index";
+import ProductDetails from "../../pages/product-details";
+import ContactUs from "../../pages/contact-us";
+import Search from "../../pages/search";
+import OriginalPaintings from "../../pages/original-paintings";
+import Nft from "../../pages/nft";
+import Statue from "../../pages/statue";
+import Sculpture from "../../pages/sculpture";
+import About from "../../pages/about";
+import PageNotFound from "../../pages/404";
 
 const appRoutes = [
   {

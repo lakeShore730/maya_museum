@@ -8,12 +8,12 @@ import painting6 from "../assets/images/painting6.jpg";
 
 const search = () => {
   return (
-    <div className="min-h-[calc(100vh-300px)]">
-      <p className="text-xl mt-12 text-center text-primary">
+    <div className="min-h-[calc(100vh-300px)] mt-5">
+      <p className="text-lg text-center tracking-wide text-emerald-500">
         Original Paintings
       </p>
 
-      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-2 md:gap-5 mt-12">
+      <div className="product-grid mt-7">
         <ProductCart name="Abc painting" price={200} image={painting1} />
         <ProductCart name="Abc painting" price={200} image={painting2} />
         <ProductCart name="Abc painting" price={200} image={painting3} />

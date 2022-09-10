@@ -16,14 +16,14 @@ const ContactCard = (props) => {
             <input
               type="email"
               placeholder="Your email"
-              className="w-full p-1 border border-gray-500 outline-none text-gray-700"
+              className="input-field"
             />
             <textarea
               rows="3"
-              className="p-1 mt-5 w-full border border-gray-500 outline-none text-gray-700"
+              className="input-field mt-5"
               placeholder="Your message"
             ></textarea>
-            <button className="mt-5 w-full bg-primary py-2 text-white font-semibold hover:bg-emerald-800">
+            <button className="mt-5 w-full bg-emerald-500 py-2 text-white font-semibold hover:bg-emerald-600">
               Submit
             </button>
           </form>
@@ -33,15 +33,15 @@ const ContactCard = (props) => {
       <div className="flex justify-center mt-5 gap-5">
         <Facebook
           size={30}
-          className="text-white bg-primary rounded-full p-[5px] cursor-pointer hover:bg-emerald-800"
+          className="rounded-full p-[5px] cursor-pointer bg-emerald-500 text-white hover:bg-emerald-600"
         />
         <Twitter
           size={30}
-          className="text-white bg-primary rounded-full p-[5px] cursor-pointer hover:bg-emerald-800"
+          className="rounded-full p-[5px] cursor-pointer bg-emerald-500 text-white hover:bg-emerald-600"
         />
         <Instagram
           size={30}
-          className="text-white bg-primary rounded-full p-[5px] cursor-pointer hover:bg-emerald-800"
+          className="rounded-full p-[5px] cursor-pointer bg-emerald-500 text-white hover:bg-emerald-600"
         />
       </div>
 

@@ -30,8 +30,8 @@ const ProductDetails = () => {
 
         <div>
           <p className="mt-2 text-xl text-gray-700">Palm Trees with Gold Sun</p>
-          <p className="mt-3 text-primary">$ 300.00</p>
-          <button className="mt-12 p-2 w-full max-w-[350px] text-md font-semibold text-white bg-primary hover:bg-emerald-800">
+          <p className="mt-3 text-emerald-500">$ 300.00</p>
+          <button className="mt-12 p-2 w-full max-w-[350px] text-md font-semibold text-white bg-emerald-500 hover:bg-emerald-600">
             Add to cart
           </button>
 
@@ -56,15 +56,15 @@ const ProductDetails = () => {
             <div className="flex mt-5 gap-5">
               <Facebook
                 size={30}
-                className="text-white bg-primary rounded-full p-[5px] cursor-pointer hover:bg-emerald-800"
+                className="text-white rounded-full p-[5px] cursor-pointer bg-emerald-500 hover:bg-emerald-600"
               />
               <Twitter
                 size={30}
-                className="text-white bg-primary rounded-full p-[5px] cursor-pointer hover:bg-emerald-800"
+                className="text-white rounded-full p-[5px] cursor-pointer bg-emerald-500 hover:bg-emerald-600"
               />
               <Instagram
                 size={30}
-                className="text-white bg-primary rounded-full p-[5px] cursor-pointer hover:bg-emerald-800"
+                className="text-white rounded-full p-[5px] cursor-pointer bg-emerald-500 hover:bg-emerald-600"
               />
             </div>
           </div>
