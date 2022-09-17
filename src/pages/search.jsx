@@ -9,7 +9,7 @@ import painting6 from "../assets/images/painting6.jpg";
 
 const Search = () => {
   return (
-    <div className="min-h-[calc(100vh-300px)] mt-7">
+    <div className="min-h-[calc(100vh-300px)] mt-10">
       <form>
         <SearchFiled />
       </form>

@@ -7,6 +7,7 @@ import Nft from "../../pages/nft";
 import Statue from "../../pages/statue";
 import Sculpture from "../../pages/sculpture";
 import About from "../../pages/about";
+import Cart from "../../pages/cart";
 import PageNotFound from "../../pages/404";
 
 const appRoutes = [
@@ -103,6 +104,17 @@ const appRoutes = [
     path: "/about",
     exact: true,
     component: About,
+    meta: {
+      appLayout: true,
+      privateRoute: false,
+    },
+  },
+
+  {
+    id: "cart",
+    path: "/cart",
+    exact: true,
+    component: Cart,
     meta: {
       appLayout: true,
       privateRoute: false,

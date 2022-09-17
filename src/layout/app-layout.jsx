@@ -22,7 +22,7 @@ const AppLayout = (props) => {
           <Container>
             <Header className="pt-8" />
           </Container>
-          <div className="sticky top-0 bg-[#fcfcfc] z-10">
+          <div className="sticky top-0 border-b-[1px] z-10 bg-white">
             <Container>
               <Navigation className="mt-8 py-5" />
             </Container>

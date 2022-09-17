@@ -29,9 +29,16 @@ const ProductDetails = () => {
         </div>
 
         <div>
-          <p className="mt-2 text-xl text-gray-700">Palm Trees with Gold Sun</p>
-          <p className="mt-3 text-emerald-500">$ 300.00</p>
-          <button className="mt-12 p-2 w-full max-w-[350px] text-md font-semibold text-white bg-emerald-500 hover:bg-emerald-600">
+          <p className="mt-2 subheader text-gray-700">
+            Palm Trees with Gold Sun
+          </p>
+          <p className="mt-3 text-gray text-[18px]">$ 300.00</p>
+
+          <button className="mt-8 p-2 w-full max-w-[350px] text-md font-semibold text-white bg-primary hover:bg-darkPrimary">
+            Buy Now
+          </button>
+
+          <button className="mt-5 p-2 w-full max-w-[350px] text-md font-semibold text-gray-900 border border-secondary hover:border-darkSecondary">
             Add to cart
           </button>
 
@@ -56,15 +63,15 @@ const ProductDetails = () => {
             <div className="flex mt-5 gap-5">
               <Facebook
                 size={30}
-                className="text-white rounded-full p-[5px] cursor-pointer bg-emerald-500 hover:bg-emerald-600"
+                className="text-primary border border-gray-200 rounded-full p-[5px] cursor-pointer hover:text-darkPrimary"
               />
               <Twitter
                 size={30}
-                className="text-white rounded-full p-[5px] cursor-pointer bg-emerald-500 hover:bg-emerald-600"
+                className="text-primary border border-gray-200 rounded-full p-[5px] cursor-pointer hover:text-darkPrimary"
               />
               <Instagram
                 size={30}
-                className="text-white rounded-full p-[5px] cursor-pointer bg-emerald-500 hover:bg-emerald-600"
+                className="text-primary border border-gray-200 rounded-full p-[5px] cursor-pointer hover:text-darkPrimary"
               />
             </div>
           </div>
@@ -72,7 +79,7 @@ const ProductDetails = () => {
       </div>
 
       <div className="mt-16">
-        <p className="text-gray-600">
+        <p className="paragraph text-gray-600">
           This 'Palm Trees with Gold Sun' illustration print is a conversation
           starter. It would look great anywhere from your first apartment all
           the way to your dream home!. Should any problem or query regarding

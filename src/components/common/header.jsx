@@ -14,31 +14,24 @@ const Header = (props) => {
           <img
             src={buddhaImage}
             alt="buddha statue"
-            className="w-[90px] h-auto cursor-pointer"
+            className="w-[80px] h-auto cursor-pointer"
           />
         </Link>
         <div>
-          <p className="text-emerald-800 font-medium text-3xl">MAYA</p>
-          <p className="text-emerald-800 font-medium text-3xl mt-2">MUSEUM</p>
-          <p className="text-emerald-800 font-medium text-3xl mt-2">
+          <p className="text-[24px] font-medium text-darkPrimary">MAYA</p>
+          <p className="text-[24px] font-medium mt-[8px] text-darkPrimary">
+            MUSEUM
+          </p>
+          <p className="text-[24px] font-medium mt-[8px] text-darkPrimary">
             COLLECTION
           </p>
         </div>
       </div>
       <div>
         <div className="flex gap-5 justify-end">
-          <User
-            size={25}
-            className="text-emerald-700 cursor-pointer hover:text-emerald-800"
-          />
-          <ShoppingBag
-            size={25}
-            className="text-emerald-700 cursor-pointer hover:text-emerald-800"
-          />
-          <Sun
-            size={25}
-            className="text-emerald-700 cursor-pointer hover:text-emerald-800"
-          />
+          <Sun size={25} className="text-gray-700 cursor-pointer" />
+          <ShoppingBag size={25} className="text-gray-700 cursor-pointer" />
+          <User size={25} className="text-gray-700 cursor-pointer" />
         </div>
         <div className="mt-20">
           <SearchFiled className="w-[350px]" />

@@ -23,7 +23,7 @@ const ContactCard = (props) => {
               className="input-field mt-5"
               placeholder="Your message"
             ></textarea>
-            <button className="mt-5 w-full bg-emerald-500 py-2 text-white font-semibold hover:bg-emerald-600">
+            <button className="mt-5 w-full bg-primary py-2 text-white font-semibold hover:bg-darkPrimary">
               Submit
             </button>
           </form>
@@ -33,15 +33,15 @@ const ContactCard = (props) => {
       <div className="flex justify-center mt-5 gap-5">
         <Facebook
           size={30}
-          className="rounded-full p-[5px] cursor-pointer bg-emerald-500 text-white hover:bg-emerald-600"
+          className="rounded-full p-[5px] cursor-pointer border-[1px] border-gray-200 text-primary hover:text-darkPrimary"
         />
         <Twitter
           size={30}
-          className="rounded-full p-[5px] cursor-pointer bg-emerald-500 text-white hover:bg-emerald-600"
+          className="rounded-full p-[5px] cursor-pointer border-[1px] border-gray-200 text-primary hover:text-darkPrimary"
         />
         <Instagram
           size={30}
-          className="rounded-full p-[5px] cursor-pointer bg-emerald-500 text-white hover:bg-emerald-600"
+          className="rounded-full p-[5px] cursor-pointer border-[1px] border-gray-200 text-primary hover:text-darkPrimary"
         />
       </div>
 

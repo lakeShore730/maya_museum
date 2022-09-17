@@ -7,5 +7,17 @@
 }
 
 .input-field {
-  @apply w-full p-1 outline-none border rounded-sm border-gray-500 text-gray-700 active:border-emerald-700 focus:border-emerald-700;
+  @apply w-full p-1 outline-none border rounded-sm border-gray-300 text-gray-700 active:border-emerald-700 focus:border-emerald-700;
+}
+
+.header {
+  @apply text-[21px] lg:text-[32px] font-[600];
+}
+
+.subheader {
+  @apply text-[18px] lg:text-[25px] font-[500];
+}
+
+.paragraph {
+  @apply text-[16px];
 }
