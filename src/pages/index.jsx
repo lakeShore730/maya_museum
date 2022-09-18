@@ -33,7 +33,6 @@ const Home = () => {
         <ProductCart name="Abc painting" price={200} image={painting5} />
         <ProductCart name="Abc painting" price={200} image={painting6} />
         <ProductCart name="Abc painting" price={200} image={painting1} />
-        <ProductCart name="Abc painting" price={200} image={painting1} />
         <ProductCart name="Abc painting" price={200} image={painting2} />
         <ProductCart name="Abc painting" price={200} image={painting3} />
       </div>

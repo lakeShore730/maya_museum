@@ -38,7 +38,7 @@ const ProductDetails = () => {
             Buy Now
           </button>
 
-          <button className="mt-5 p-2 w-full max-w-[350px] text-md font-semibold text-gray-900 border border-secondary hover:border-darkSecondary">
+          <button className="mt-5 p-2 w-full max-w-[350px] text-md font-semibold text-gray-900 border border-secondary hover:bg-secondary hover:text-white">
             Add to cart
           </button>
 

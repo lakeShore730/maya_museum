@@ -22,6 +22,7 @@ const Cart = () => {
                   <div className="flex gap-2">
                     <img
                       src={painting1}
+                      alt="product-1"
                       className="w-[50px] h-[60px] object-cover"
                     />
                     <div>
@@ -50,6 +51,7 @@ const Cart = () => {
                   <div className="flex gap-2">
                     <img
                       src={painting2}
+                      alt="product-1"
                       className="w-[50px] h-[60px] object-cover"
                     />
                     <div>
@@ -76,6 +78,7 @@ const Cart = () => {
                   <div className="flex gap-2">
                     <img
                       src={painting2}
+                      alt="product-1"
                       className="w-[50px] h-[60px] object-cover"
                     />
                     <div>
@@ -102,6 +105,7 @@ const Cart = () => {
                   <div className="flex gap-2">
                     <img
                       src={painting1}
+                      alt="product-1"
                       className="w-[50px] h-[60px] object-cover"
                     />
                     <div>

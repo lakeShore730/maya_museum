@@ -6,8 +6,8 @@ import OriginalPaintings from "../../pages/original-paintings";
 import Nft from "../../pages/nft";
 import Statue from "../../pages/statue";
 import Sculpture from "../../pages/sculpture";
-import About from "../../pages/about";
 import Cart from "../../pages/cart";
+import Orders from "../../pages/orders";
 import PageNotFound from "../../pages/404";
 
 const appRoutes = [
@@ -100,10 +100,10 @@ const appRoutes = [
   },
 
   {
-    id: "about",
-    path: "/about",
+    id: "cart",
+    path: "/cart",
     exact: true,
-    component: About,
+    component: Cart,
     meta: {
       appLayout: true,
       privateRoute: false,
@@ -111,10 +111,10 @@ const appRoutes = [
   },
 
   {
-    id: "cart",
-    path: "/cart",
+    id: "orders",
+    path: "/orders",
     exact: true,
-    component: Cart,
+    component: Orders,
     meta: {
       appLayout: true,
       privateRoute: false,

@@ -1,5 +1,4 @@
 import {
-  AlertCircle,
   Archive,
   Briefcase,
   Edit,
@@ -45,13 +44,6 @@ export const leftNavigationItems = [
     name: "Sculpture",
     path: "/sculpture",
     Icon: (props) => <Archive {...props} />,
-  },
-
-  {
-    id: "about",
-    name: "About",
-    path: "/About",
-    Icon: (props) => <AlertCircle {...props} />,
   },
 
   {
