@@ -8,6 +8,7 @@ import Statue from "../../pages/statue";
 import Sculpture from "../../pages/sculpture";
 import Cart from "../../pages/cart";
 import Orders from "../../pages/orders";
+import Account from "../../pages/account";
 import PageNotFound from "../../pages/404";
 
 const appRoutes = [
@@ -93,6 +94,17 @@ const appRoutes = [
     path: "/sculpture",
     exact: true,
     component: Sculpture,
+    meta: {
+      appLayout: true,
+      privateRoute: false,
+    },
+  },
+
+  {
+    id: "account",
+    path: "/account",
+    exact: true,
+    component: Account,
     meta: {
       appLayout: true,
       privateRoute: false,

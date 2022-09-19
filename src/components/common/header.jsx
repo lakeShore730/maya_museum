@@ -1,4 +1,4 @@
-import { ShoppingBag, Sun, User } from "react-feather";
+import { ShoppingBag, User } from "react-feather";
 import { Link } from "react-router-dom";
 import cn from "classnames";
 import buddhaImage from "../../assets/images/buddha.png";
@@ -29,9 +29,12 @@ const Header = (props) => {
       </div>
       <div>
         <div className="flex gap-5 justify-end">
-          <Sun size={25} className="text-gray-700 cursor-pointer" />
-          <ShoppingBag size={25} className="text-gray-700 cursor-pointer" />
-          <User size={25} className="text-gray-700 cursor-pointer" />
+          <Link to="/cart">
+            <ShoppingBag size={25} className="text-gray-700" />
+          </Link>
+          <Link to="/account">
+            <User size={25} className="text-gray-700" />
+          </Link>
         </div>
         <div className="mt-20">
           <SearchFiled className="w-[350px]" />

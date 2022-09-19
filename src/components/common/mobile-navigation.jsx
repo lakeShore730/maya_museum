@@ -25,9 +25,11 @@ const MobileNavigation = ({ className = "" }) => {
           <Link to="/search">
             <Search size={20} className="text-emerald-700 select-none" />
           </Link>
-          <User size={20} className="text-emerald-700 select-none" />
           <Link to="/cart">
             <ShoppingBag size={20} className="text-emerald-700 select-none" />
+          </Link>
+          <Link to="/account">
+            <User size={20} className="text-emerald-700 select-none" />
           </Link>
           <Menu
             size={20}
